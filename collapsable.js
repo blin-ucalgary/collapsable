@@ -69,9 +69,9 @@
       });
 
       headerContainer.append($(":first", el)).append(statusContainer);
-      contentContainer.append($("*",el));
+      contentContainer.html($(el).html());
 
-      $(el).prepend(headerContainer).append(contentContainer);
+      $(el).empty().prepend(headerContainer).append(contentContainer);
   };
 
   var toggleStatus = function(status) {
