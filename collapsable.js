@@ -46,7 +46,7 @@
 
       headerContainer.css({
         "display" : "block",
-        "padding" : "5px",
+        "padding" : "5px 5px 5px 0",
         "height"  : "auto",
         "cursor" : "pointer",
         "padding-right" : "65px",
